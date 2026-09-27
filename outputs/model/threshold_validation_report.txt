@@ -1,0 +1,16 @@
+CORRECTED VALIDATION REPORT
+===========================
+
+S1 universe: 10,000
+S2 universe: 200,000
+S3 universe: 200,000
+Validation S1: 2,000
+Validation candidates: 239,625
+Eligible GT pairs: 286
+Retrieved GT pairs: 284
+Blocker recall: 0.99300699
+Best threshold: 0.87000000
+Macro F0.5: 0.96827778
+TP: 223
+FP: 10
+FN: 63

@@ -1,0 +1,34 @@
+BUSINESS ENTITY RESOLUTION
+===========================
+
+S1 universe: 10000
+Target universe: 200000
+Validation S1 entities: 2000
+Validation candidate rows: 239625
+Validation positive candidates: 284
+Best threshold: 0.22000000000000003
+Macro F0.5: 0.12395516738163798
+
+Features:
+- name_ratio
+- name_token_sort
+- name_token_set
+- name_partial
+- name_jaccard
+- name_length_ratio
+- name_exact
+- name_sorted_exact
+- address_ratio
+- address_token_sort
+- address_token_set
+- address_partial
+- address_jaccard
+- address_length_ratio
+- address_exact
+- address_digit_overlap
+- country_match
+- max_name_address
+- avg_name_address
+- weighted_similarity
+- name_length
+- address_length
